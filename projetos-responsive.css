@@ -1,0 +1,40 @@
+@media (max-width: 600px) {
+    h5{
+        font-size: 30px;
+        margin-top: 20px;
+        color: rgb(46, 88, 206);
+    }
+
+    p{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        color: rgb(107, 102, 102);
+        max-width: 80%;
+        margin: auto;
+        font-size: 20px;
+    }
+
+    section{
+        margin: 30px;
+        
+    }
+
+    a{
+        margin: 30px;
+        border: 5px solid #ffffff;
+    }
+
+    .voltar_certificado{
+        font-size: 18px;
+        width: 200px;
+        margin: 30px auto;
+    }
+
+    .voltar_certificado:hover{
+        font-size: 18px;
+        width: 200px;
+        margin: 30px auto;
+    }
+  
+}
+

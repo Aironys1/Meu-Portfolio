@@ -1,0 +1,104 @@
+
+body{
+
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    background-color:#302c2c;
+
+}
+
+
+ h6{
+     color: rgb(255, 255, 255) !important;
+     border: 0 !important;
+     margin: 30px  auto!important;
+     
+ }
+
+
+.certificados{
+    width: 600px;
+    border-radius: 30px;
+    border: 5px solid #00000098;
+    background-color: #97b0c7;
+}
+
+.certificado{
+    color: #ffffff;
+    font-size:30px;
+    text-align: center;
+    border-bottom: 2px solid #000000;
+    max-width: 90%;
+    margin: auto;
+}
+
+
+.p_certificado{
+    margin-top:30px;
+    margin-bottom: 30px;
+    color:#ffffff;
+    text-align:center;
+    font-size:15px;
+    width: 500px;
+    margin: 50px auto;
+}
+
+ .voltar_certificado{
+    max-width: 80%;
+    margin: auto;
+    font-size:25px;
+    margin-top: 10px;
+    color:#ffffff;
+    margin-bottom: 50px;
+}
+
+
+.voltar_certificado:hover{
+    max-width: 80%;
+    margin: auto;
+    font-size:25px;
+    margin-top: 10px;
+    color: #000000;
+    margin-bottom: 50px;
+
+
+
+}
+
+
+
+
+/* MEUS CERTIFICADOS*/ 
+
+
+
+@media (max-width:600px) {
+
+
+    
+    .titulocertificado{       
+    font-size: 30px !important;
+    text-align: center;
+    margin: auto;
+    background-color: #93c1c793;
+    border-radius: 20px;
+    padding-bottom: 40px;
+    color: #ffffff;
+
+    }
+
+    img.certificados{
+        width: 250px;
+    }
+
+    a.voltar_certificado{
+        font-size: 20px !important;
+    }
+
+    h1.titulocertificado{
+        padding-top: 30px;
+    }
+
+        
+    }
+
+

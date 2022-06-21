@@ -1,0 +1,545 @@
+*{
+    margin: 0;
+
+}
+
+
+
+html{
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    background-color:#302c2c;
+    
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+
+
+#topo{
+    background-image: url(img/fundoheader.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100vw;
+    max-height: 1200px;
+    height:100vh !important;
+    margin: auto;
+    height: 500px;
+    padding-top:50px;
+    border:1px solid rgb(255, 255, 255);
+}
+
+
+.logo{
+    width: 250px;
+    border-radius: 50%;
+    border: 2px solid rgb(0, 0, 0);
+   
+}
+
+ul{
+    background-color: #00000069;
+    height: 60px;
+    margin: -300px auto;
+    margin-bottom:300px;
+    padding-top:30px;
+    border-radius: 20px;
+    text-align: center;
+    max-width:100vw;
+  
+}
+
+
+
+ul li  {
+    display: inline;
+    margin: auto;
+    padding-inline-end: 20px;
+    
+    
+    
+
+}
+
+ul li a {
+    text-decoration: none;
+   
+    font-size: 25px;
+    color:#ffffff;
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+    margin: auto;
+    display: flex-inline;
+    margin-left: 1%;
+}
+
+ul li a:hover {
+    text-decoration: none;
+   
+    font-size: 25px;
+    color:#dee4e3;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px #ffffff;
+
+}
+
+
+
+h1{
+text-align: center;
+font-size:150px;
+font-family: 'Luxurious Script', cursive;
+display:none
+
+
+}
+
+h2{
+    text-align: center;
+    font-family: 'Luxurious Script','Anton', sans-serif;
+    font-size:80px;
+    margin-top: 185px;
+    padding-top:50px;
+    margin-bottom: 20px;
+    color: white !important;
+}
+
+
+
+
+p{
+    font-size:20px;
+    color:rgb(223, 212, 212);
+    text-align: justify;
+    display:block;
+    margin-bottom: 50px;
+    margin-top:20px;
+    margin-left: 100px;
+    margin-right:100px;
+    line-height:50px;
+    
+}
+
+
+.compo_paragrafo{
+    text-align:center;
+    margin-top:10px;
+}
+
+img{
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+    padding: 20px;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+
+.violino{
+    width: 800px;
+    border-radius: 100%;
+}
+
+.trompete {
+    width: 800px;
+    border-radius: 100%;
+
+    
+
+}
+
+
+
+.voltar_certificado{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    border-radius: 10px;
+    margin-top:50px;
+    margin-bottom: 80px;
+    color: #ffffff;
+    font-size: 30px;
+    background-color:#777474;
+}
+
+
+.voltar_certificado:hover{
+    max-width: 50%;
+    margin: auto;
+    font-size:30px;
+    margin-top: 10px;
+    color:rgb(0, 0, 0);
+
+}
+
+.canudo{
+    width:700px;
+    border-radius: 100%;
+}
+
+
+
+.frame1{
+    background-color: #b2d8bd;
+    margin: auto;
+    display: flex;
+    
+}
+
+.frame2{
+    background-color: #b2d8bd;
+    margin: auto;
+    display: flex;
+}
+
+
+.mcaironn{
+    max-width: 99%;
+    display: block;
+    margin:20px auto;
+    background-color:#696464;
+    text-align: center;
+    margin:20px;
+    border-radius: 20px;
+    border: 1px solid rgb(255, 255, 255);
+
+}
+
+.jeito{
+    border-radius: 20px;
+    margin: 15px;
+    border: 5px solid rgb(255, 255, 255);
+}
+
+.arlequina{
+    border-radius: 20px;
+    margin: 15px;
+    border: 5px solid rgb(255, 255, 255);
+
+
+}
+
+.helipa{
+    border-radius: 20px;
+    margin: 15px;
+    border: 5px solid rgb(255, 255, 255);
+
+
+}
+
+
+.album{
+    background-color:#00000000;
+    border-radius: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    display: block;
+    margin:20px;
+
+}
+
+.album  .audio{
+    display: block;
+    margin: 10px auto;
+}
+
+.audio1{
+    display: block;
+    margin: 0 auto;
+    
+}
+
+
+#composicoes{
+    text-align: center;
+}
+
+#composicoes a{
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    background-color:#2f3333;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 30px;
+
+}
+
+#composicoes a:hover{
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    padding: 30px;
+
+}
+
+
+.minhasfotos{
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: auto;
+    font-size: 25px;
+    background-color:white;
+    width:200px;
+    height: 50px;
+    font-family:'Luxurious Script', cursive;
+}
+
+
+
+h3{   
+    
+    margin-top: 700px; 
+    margin-bottom: 20px;
+
+}
+
+.icon img{
+    width: 35px;
+    margin-top:50px;
+
+   
+}
+
+ .icon {
+    text-align: center;
+    margin-top:20px;
+    margin-bottom:50px;
+
+}
+
+
+div.icon{
+    
+    background-color:;
+}
+
+.icon a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size:20px;
+    color: white;
+
+}
+
+.icon a:hover{
+    text-decoration: none;
+    font-weight: bold;
+    font-size:20px;
+    color: #000000;
+}
+
+.sorriso{
+    width:50px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius:50px;
+    border-style:dotted;
+    
+}
+
+
+ img.whats{
+    text-align: center;
+    margin-top:20px;
+    margin-bottom:50px;
+    width: 40px;
+}
+
+
+
+
+form#formulario{
+    max-width: 90%;
+    margin: auto;
+    text-align: center;
+    display: block;
+    font-size:30px;
+    color: white;
+    margin-top: 10px;
+    background-color:#2f3333 !important;
+    border-radius: 50px;
+    height: 350px;
+}
+
+
+
+
+#contatos {
+
+    margin: auto;
+    text-align: center;
+    display:flex;
+
+    font-size:30px;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+
+    border-radius: 50px;
+
+}
+
+ button {
+    margin: auto;
+    display:flex;
+    text-align: center;
+    display: block;
+    font-size:30px;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    background-color:#9ec5c4;;
+    border-radius: 50px;
+    margin-bottom: 20px;
+
+    
+}
+
+
+.imgmail{
+    width: 50px;
+}
+
+
+.email{
+
+    font-weight:bold;
+    text-decoration: none;
+    font-size:30px;
+    color:#ffffff;
+    display: flex;
+    margin: auto;
+    margin-top:100px;
+    margin-bottom:50px;
+    
+    
+
+}
+
+.email:hover{
+
+    font-weight:bold;
+    text-decoration: none;
+    font-size:30px;
+    color:#000000;
+    
+
+}
+
+
+
+input{
+    background-color:#ffffffff;
+    border-radius: 20px;
+    color: #000000;
+    border: 1px solid #000000;
+    font-size: 25px;
+    margin-top:40px;
+
+
+
+    
+}
+
+
+.voltar1, .enviar{
+    border: 0;
+    background-color:#1a1919;
+    border: 2px solid white;
+
+}
+.voltar1 a{
+    color: white;
+}
+
+button.enviar{
+    color: white;
+    border: 0;
+    border: 2px solid white;
+}
+
+
+.endereco2{
+    display: block;
+    max-width: 80%;
+    margin: 20px auto;
+    text-decoration: none;
+    color: white;
+}
+
+
+.endereco2:hover{
+    color:rgb(80, 77, 77);
+}
+
+#endereco {
+    
+   background-color:#ffffff;
+   resize: vertical;
+   color: #000000;
+   font-size:25px;
+   border-radius: 20px;
+   border: 1px solid #000000;
+   text-align: center;
+   padding-top:25px;
+   
+
+}
+
+.mapa{
+    margin: auto;
+    display: flex;
+    border-radius:20px;
+}
+
+.voltar {
+
+margin-top: 100px;
+margin-bottom:50px;
+color: #000000;
+    
+}
+
+
+
+.voltar:hover {
+
+    margin-top: 100px;
+    margin-bottom:50px;
+    color: #000000;
+        
+    }
+    
+
+
+
+h4{
+    text-align: center;
+    color:rgb(0, 0, 0);
+}
+
+
+section .img-all{
+    width:300px;
+    height: 300px;
+}
+ 
+
+address h4{
+    color: rgb(135, 130, 130);
+}
+
+
+
+    
+    
+
+
