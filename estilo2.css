@@ -27,7 +27,6 @@
 
 
   
- 
     
 div .logo{
     width: 80px;
@@ -65,9 +64,7 @@ nav{
    padding:5px;
 
 
-   
-
-    
+     
 }
 ul#menu a:hover {
 
@@ -93,51 +90,13 @@ h2{
  
 }
 
-/* atulização versão 2.0 */
 
-
-/*COMPOSIÇÕES PARAGRAFO*/
-
-
-.violino, .trompete, .canudo{
-    width:180px !important;
-    height:180px !important;
-}
-
-.voltar_certificado{
-    background-color: #777474;
-}
-
-.compo_paragrafo{
-    color:#c4bdbd !important;
-    margin:35px !important;
-}
-
-.linkcomposicao{
-    background-color:#2f3333 !important;
-}
-
-
-.album{
-    background-color:#00000000;
-}
-
-.album h4{
-    color: #ffffff;
-    margin-top: 20px;
-    font-size:20px;
-}
-
-.mcaironn{
-    max-width: 90%;
-    background-color: #696464;
-}
 
 #formulario{
     background-color:#2f3333 !important;
 }
 
-.enviar, .voltar{
+.enviar .voltar{
     border:0;
     border: 3px solid #c4bdbd;
 }
@@ -148,78 +107,6 @@ a.endereco2{
 
 
 
-#videos{
-    margin-top:10px;
-}
-
-
-.musica{
-    color: black;
-    text-align: center;
-    margin: auto;
-   
-}
-
-.album{
-    display: block;
-}
-
-.audio{
-    margin-left: 10px;
-}
-
-
-.mcaironn{
-    width: 100%;
-    margin-bottom: 30px;
-}
-
-
-.jeito{
-    width: 280px;
-    height:150px;
-}
-
-.helipa{
-    width: 280px;
-    height:150px;
-}
-
-
-.arlequina{
-    width: 280px;
-    height:150px;
-}
-
-
-
-.compo_paragrafo{
-    color:rgb(0, 0, 0);
-    font-size:17px;
-  
-
-}
-
-/*LINK COMPOSIÇÃO*/
-
-div#composicoes{
-    max-width: 280px;
-    margin: 0 auto;
-    margin-top: 10px;
-}
-.linkcomposicao{
-    font-size:20px !important;
-    border-radius: 30px !important;
-    margin-top: 10px !important;
-
-
-}
-
-
-/*FIM DA ATUALIZAÇÃO*/
-
-
-
 a.voltar_certificado{
     max-width: 80%;
     margin: auto;
@@ -227,15 +114,6 @@ a.voltar_certificado{
     margin-top: 10px;
     color:white;
 }
-
-a.voltar_certificado:hover{
-    max-width: 80%;
-    margin: auto;
-    font-size:25px;
-    margin-top: 10px;
-    color:black;
-}
-
 
 
 
@@ -439,91 +317,10 @@ ul#menu a:hover {
   
  }
  
- /* atulização versão 2.0 */
+ /* atulização versão 2.0 */ 
  
  
- /*COMPOSIÇÕES PARAGRAFO*/
 
- .mcaironn{
-    max-width:90% !important;
-    margin: 0 auto;
-    display:block;
-    background-color: #696464;
-}
-
- 
- #videos{
-     margin-top:10px;
- }
- 
- 
- .musica{
-     color: black;
-     text-align: center;
-     margin: auto;
-    
- }
- 
- .album{
-     display: block;
- }
- 
- .audio{
-     margin-left: 10px;
- }
- 
- 
- .mcaironn{
-     width: 100%;
-     margin-bottom: 30px;
- }
- 
- 
- .jeito{
-     width: 280px;
-     height:150px;
- }
- 
- .helipa{
-     width: 280px;
-     height:150px;
- }
- 
- 
- .arlequina{
-     width: 280px;
-     height:150px;
- }
- 
- 
- 
- .compo_paragrafo{
-     color:rgb(0, 0, 0);
-     font-size:17px;
-   
- 
- }
- 
- /*LINK COMPOSIÇÃO*/
- 
- div#composicoes{
-     max-width: 280px;
-     margin: 0 auto;
-     margin-top: 10px;
- }
- .linkcomposicao{
-     font-size:20px !important;
-     border-radius: 30px !important;
-     margin-top: 10px !important;
- 
- 
- }
- 
- 
- /*FIM DA ATUALIZAÇÃO*/
- 
- 
- 
  a.voltar_certificado{
      max-width: 80%;
      margin: auto;
@@ -532,14 +329,7 @@ ul#menu a:hover {
      color:white;
  }
  
- a.voltar_certificado:hover{
-     max-width: 80%;
-     margin: auto;
-     font-size:25px;
-     margin-top: 10px;
-     color:black;
- }
- 
+
  
  
  
@@ -626,7 +416,7 @@ ul#menu a:hover {
      font-weight:bold;
      text-decoration: none;
      font-size:25px;
-     color:#000000;
+     color:#928e8e;
      
  
  }
@@ -669,13 +459,11 @@ ul#menu a:hover {
 }
 
 
+
 ul li  {
     display: inline;
     margin: auto;
     
-    
-    
-
 }
 
 ul li a {
@@ -699,17 +487,23 @@ ul li a:hover {
 }
 
 
-.mcaironn{
-    max-width:90% !important;
-    margin: 0 auto;
-    display:block;
-    background-color: #696464;
-}
 
 p.nomelink, p{
     width:90%;
     margin: 0 auto;
 }
+
+
+
+
+}
+
+@media (min-width:1016px) and (max-width:1400px) {
+   
+    ul#menu{
+        margin-top:-150px;
+
+    }
 
 }
 

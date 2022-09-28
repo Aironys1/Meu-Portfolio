@@ -28,7 +28,7 @@ body {
     margin: auto;
     height: 500px;
     padding-top:50px;
-    border:1px solid rgb(255, 255, 255);
+    border:1px solid rgb(156, 33, 33);
 }
 
 
@@ -168,10 +168,7 @@ img{
 
 
 .voltar_certificado:hover{
-    max-width: 50%;
-    margin: auto;
     font-size:30px;
-    margin-top: 10px;
     color:rgb(0, 0, 0);
 
 }
@@ -183,117 +180,9 @@ img{
 
 
 
-.frame1{
-    background-color: #b2d8bd;
-    margin: auto;
-    display: flex;
-    
-}
-
-.frame2{
-    background-color: #b2d8bd;
-    margin: auto;
-    display: flex;
-}
 
 
-.mcaironn{
-    max-width: 99%;
-    display: block;
-    margin:20px auto;
-    background-color:#696464;
-    text-align: center;
-    margin:20px;
-    border-radius: 20px;
-    border: 1px solid rgb(255, 255, 255);
 
-}
-
-.jeito{
-    border-radius: 20px;
-    margin: 15px;
-    border: 5px solid rgb(255, 255, 255);
-}
-
-.arlequina{
-    border-radius: 20px;
-    margin: 15px;
-    border: 5px solid rgb(255, 255, 255);
-
-
-}
-
-.helipa{
-    border-radius: 20px;
-    margin: 15px;
-    border: 5px solid rgb(255, 255, 255);
-
-
-}
-
-
-.album{
-    background-color:#00000000;
-    border-radius: 20px;
-    border: 1px solid rgb(255, 255, 255);
-    display: block;
-    margin:20px;
-
-}
-
-.album  .audio{
-    display: block;
-    margin: 10px auto;
-}
-
-.audio1{
-    display: block;
-    margin: 0 auto;
-    
-}
-
-
-#composicoes{
-    text-align: center;
-}
-
-#composicoes a{
-    text-align: center;
-    text-decoration: none;
-    display: block;
-    font-size: 25px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    color: white;
-    background-color:#2f3333;
-    max-width: 800px;
-    margin: auto;
-    border-radius: 10px;
-    padding: 30px;
-
-}
-
-#composicoes a:hover{
-    text-align: center;
-    text-decoration: none;
-    font-size: 25px;
-    color: rgb(0, 0, 0);
-    padding: 30px;
-
-}
-
-
-.minhasfotos{
-    text-align: center;
-    text-decoration: none;
-    display: block;
-    margin: auto;
-    font-size: 25px;
-    background-color:white;
-    width:200px;
-    height: 50px;
-    font-family:'Luxurious Script', cursive;
-}
 
 
 
