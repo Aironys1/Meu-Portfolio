@@ -423,9 +423,38 @@ address h4{
     color: rgb(135, 130, 130);
 }
 
+.projetosAgora{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.projetosAgora span {
+    color: rgb(167, 153, 239);
+    font-size:35px;
+    font-family: monospace;
+    font-weight: bold;
+    padding: 20px;
+    background-color:whitesmoke;
+    margin-top: 20px;
+    border-radius: 20px;
+}
 
+.projetosAgora a{
+    border: 0;
+    text-decoration: none;
+    color:rgb(98, 146, 209);
+    font-family: fantasy;
+    font-size: 25px;
+    padding: 20px;
     
+}
+    
+.projetosAgora a:hover{
+   
+    color:rgb(216, 222, 230);
+    
+}
     
 
 
