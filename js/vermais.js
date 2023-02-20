@@ -19,16 +19,50 @@ function leiaMais(){
 function leiaMaisMusica(){
     let pontos = document.getElementById("pontosmusica");
     let maisTexto=document.getElementById("maismusica");
-    let btnLeiaMais=document.getElementById("btnLeiaMaisMusica");
+    let btnLeiaMusica=document.getElementById("btnLeiaMusica");
 
     if(pontos.style.display==="none"){
         pontos.style.display="inline";
         maisTexto.style.display="none";
-        btnLeiaMais.innerHTML="Leia Mais";
+        btnLeiaMusica.innerHTML="Leia Mais";
 
     } else{
         pontos.style.display="none";
         maisTexto.style.display="inline";
-        btnLeiaMais.innerHTML="Leia Menos";
+        btnLeiaMusica.innerHTML="Leia Menos";
+    }
+}
+
+function leiaMaisTrompete(){
+    let pontos = document.getElementById("pontostrompete");
+    let maisTexto=document.getElementById("maistrompete");
+    let btnLeiaTrompete=document.getElementById("btnLeiaTrompete");
+
+    if(pontos.style.display==="none"){
+        pontos.style.display="inline";
+        maisTexto.style.display="none";
+        btnLeiaTrompete.innerHTML="Leia Mais";
+
+    } else{
+        pontos.style.display="none";
+        maisTexto.style.display="inline";
+        btnLeiaTrompete.innerHTML="Leia Menos";
+    }
+}
+
+function leiaMaisTrompetehistoria(){
+    let pontos = document.getElementById("pontostrompetehistoria");
+    let maisTexto=document.getElementById("maistrompetehistoria");
+    let btnLeiaTrompetehistoria=document.getElementById("btnLeiaTrompetehistoria");
+
+    if(pontos.style.display==="none"){
+        pontos.style.display="inline";
+        maisTexto.style.display="none";
+        btnLeiaTrompetehistoria.innerHTML="Leia Mais";
+
+    } else{
+        pontos.style.display="none";
+        maisTexto.style.display="inline";
+        btnLeiaTrompetehistoria.innerHTML="Leia Menos";
     }
 }

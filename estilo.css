@@ -18,6 +18,17 @@ body {
 #mais{
     display: none;
 }
+#maismusica{
+    display: none;
+}
+#maistrompete {
+    display: none;
+}
+
+#maistrompetehistoria{
+    display: none;
+}
+
 
 
 
@@ -141,17 +152,10 @@ img{
 
 }
 
-.violino{
-    width: 800px;
-    border-radius: 100%;
-}
 
 .trompete {
-    width: 800px;
     border-radius: 100%;
-
     
-
 }
 
 
