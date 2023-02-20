@@ -4,6 +4,10 @@
         margin-top: 20px;
         color: rgb(46, 88, 206);
     }
+    section span{
+        font-size: 1rem;
+        color: red;
+    }
 
     p{
         padding-top: 50px;
@@ -35,6 +39,10 @@
         width: 200px;
         margin: 30px auto;
     }
+    .titulo{
+        font-size: 1.5rem !important;
+    }
+    
   
 }
 
