@@ -1,3 +1,15 @@
+.campo_paragrafo{
+    color: #ffffff;
+}
+
+.titulo{
+    background-color: #222247 !important;
+    font-family: 'Courier New', Courier, monospace !important;
+}
+
+
+
+
 @media (max-width: 600px) {
     h5{
         font-size: 30px;
@@ -18,19 +30,13 @@
         font-size: 20px;
     }
 
-    section{
-        margin: 30px;
-        
-    }
+   
     .container_musica img{
         width: 10px !important;
         border: 20px solid white;
     }
 
-    a{
-        margin: 30px;
-        border: 5px solid #ffffff;
-    }
+   
 
     .voltar_certificado{
         font-size: 18px;
