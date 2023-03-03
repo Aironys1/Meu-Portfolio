@@ -1,8 +1,13 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 
 body{
 
     font-family: 'Baloo Bhaijaan 2', cursive;
-    background-color:#302c2c;
+    
+    
 
 }
 
@@ -16,9 +21,8 @@ body{
 
 
 .certificados{
-    width: 600px;
+    width: 400px;
     border-radius: 30px;
-    border: 5px solid #00000098;
     background-color: #97b0c7;
 }
 
@@ -27,7 +31,6 @@ body{
     font-size:30px;
     text-align: center;
     border-bottom: 2px solid #000000;
-    max-width: 90%;
     margin: auto;
 }
 
@@ -37,32 +40,32 @@ body{
     margin-bottom: 30px;
     color:#ffffff;
     text-align:center;
-    font-size:15px;
-    width: 500px;
-    margin: 50px auto;
+    font-size:12px;
 }
 
  .voltar_certificado{
-    max-width: 80%;
     margin: auto;
+    padding: 10px;
     font-size:25px;
     margin-top: 10px;
-    color:#ffffff;
+    color:#221f1f;
     margin-bottom: 50px;
+    width: 90vw;
 }
 
 
 .voltar_certificado:hover{
-    max-width: 80%;
     margin: auto;
+    padding: 10px;
     font-size:25px;
     margin-top: 10px;
-    color: #000000;
+    color: #ffffff;
     margin-bottom: 50px;
 
 
 
 }
+
 
 
 
@@ -87,11 +90,12 @@ body{
     }
 
     img.certificados{
-        width: 250px;
+        width: 70vw;
     }
 
     a.voltar_certificado{
         font-size: 20px !important;
+      
     }
 
     h1.titulocertificado{
