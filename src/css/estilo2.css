@@ -13,12 +13,12 @@
     
 
    #topo{
-       background-size: cover;
-       background-repeat: no-repeat;
-       width: 100%;
-       margin: 0 auto;
-       max-height:100px;
-       margin-top: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 90vh;
 
    }
 
@@ -27,16 +27,12 @@
    }
 
 
-   #topo{
-    margin: auto;
-}
-
 
   
     
 div .logo{
-    width: 80px;
-    border: 1px solid rgb(255, 255, 255);
+    width: 200px !important;
+    border: 1px solid #ffffff;
  
    
 }
@@ -50,7 +46,7 @@ nav{
 
 
   ul#menu {
-      background-color:#2f3333;
+      background-color:#777474;
 
       max-width: 90%;
       margin: 0 auto;
@@ -58,12 +54,13 @@ nav{
       margin-top: 90px;
     
   }
+
   ul#menu a {
    display: block;
    text-align:center;
    font-size:20px;
    max-width:85%;
-   border: 1px solid #696464;
+   border: 1px solid #ffffff;
    border-radius:20px;
    color:#ffffff;
    margin:1px;
@@ -72,6 +69,7 @@ nav{
 
      
 }
+
 ul#menu a:hover {
 
     display: block;
@@ -83,12 +81,12 @@ ul#menu a:hover {
 }
 
 #sobre{
-        color: black;
+        color: #000000;
         margin-top: 10px;
 }
 
 h2{
-    color: black;
+    color: #000000;
     text-align: center;
     margin: auto;
     font-size:50px;
@@ -99,7 +97,7 @@ h2{
 
 
 #formulario{
-    background-color:#2f3333 !important;
+    background-color:#777474 !important;
 }
 
 .enviar .voltar{
@@ -108,7 +106,7 @@ h2{
 }
 
 a.endereco2{
-    color: rgb(255, 255, 255);
+    color:#777474;
 }
 
 
@@ -148,31 +146,20 @@ input  {
     margin: auto;
     font-size:20px;
     text-align: center;
+    border-color: #ffffff;
 }
 
-fieldset {
-    background-color:rgba(255, 255, 255, 0);
-    margin-right: 20px;
-    display:block;
-    margin-top: 50px;
-    background-color:rgba(41, 130, 212, 0);
-    
-}
 
-form#formulario{
-    background-color:#339692 ;
-    border-radius: 50px;
-
-}
 
 textarea#endereco{
     background-color:#ffffff;
     height: 50px;
+    border-color: #ffffff;
 }
 
 button{
-    background-color:rgb(255, 255, 255);
-    color:black;
+    background-color:#777474 !important;
+    color:#ffffff;
     font-size: 25px;
     margin-bottom: 50px;
     display: float;
@@ -194,7 +181,7 @@ a.email{
     font-weight:bold;
     text-decoration: none;
     font-size:25px;
-    color:#ffffff;
+    color:#777474;
     display: flex;
     margin: auto;
     
@@ -234,7 +221,7 @@ p{
 
 /* ****************************************************************
 ****************************************************************
-MEDIA QUERY DE 6001 HÁ 1100 PX
+MEDIA QUERY DE 601 HÁ 1015 PX
 */
 
 
@@ -243,262 +230,39 @@ MEDIA QUERY DE 6001 HÁ 1100 PX
 @media (min-width:601px) and (max-width:1015px)
 
 {
-
-  
-    #topo{
-        background-size: cover;
-        background-repeat: no-repeat;
-        width: 100%;
+    ul#menu {
+        background-color:#777474;
+        max-width: 90%;
         margin: 0 auto;
-        max-height:100px;
-        margin-top: 10px;
- 
- 
- 
+        height:580px;
+        margin-top: 90px;
+        display: block;
+      
     }
- 
-   
-     
- div .logo{
-     width: 80px;
-     border: 1px solid rgb(255, 255, 255);
-  
-    
+    ul#menu a {
+        display: block;
+        text-align:center;
+        font-size:20px;
+        max-width:85%;
+        border: 1px solid #ffffff;
+        border-radius:20px;
+        color:#ffffff;
+        margin:1px;
+        padding:5px;
  }
- 
- nav{
-     max-width: 90%;
-     margin: 0 auto;
- }
- 
-    
- 
 
- ul#menu {
-    background-color:#2f3333;
 
-    max-width: 90%;
-    margin: 0 auto;
-    height:580px;
-    margin-top: 90px;
-  
 }
-ul#menu a {
- display: block;
- text-align:center;
- font-size:20px;
- max-width:85%;
- border: 1px solid #696464;
- border-radius:20px;
- color:#ffffff;
- margin:1px;
- padding:5px;
-
-
- 
-
-  
-}
-ul#menu a:hover {
-
-  display: block;
-  text-align:center;
-  font-size:20px;
-  max-width:85%;
-  color:#000000;
-  
-}
- 
- #sobre{
-    color: black;
-    margin-top: 10px;
-}
- 
- h2{
-     color: black;
-     text-align: center;
-     margin: auto;
-     font-size:50px;
-     
-  
- }
- 
- /* atulização versão 2.0 */ 
- 
- 
-
- a.voltar_certificado{
-     max-width: 80%;
-     margin: auto;
-     font-size:25px;
-     margin-top: 10px;
-     color:white;
- }
- 
-
- 
- 
- 
- p.nomelink{
-     font-size: 20px;
-     max-width: 80%;
-     margin: auto;
-     margin-top:30px;
-    
-     
- 
- }
- 
- p{
-     font-size: 20px;
-     max-width: 80%;
-     margin: auto;
-     margin-top:10px;
-    
- }
- 
- input  {
-     background-color:#ffffff;
-     width: 250px;
-     display: block;
-     margin: auto;
-     font-size:20px;
-     text-align: center;
- }
- 
- fieldset {
-     background-color:rgba(255, 255, 255, 0);
-     margin-right: 20px;
-     display:block;
-     margin-top: 50px;
-     background-color:rgba(41, 130, 212, 0);
-     
- }
- 
- form#formulario{
-     background-color:#339692 ;
-     border-radius: 50px;
- 
- }
- 
- textarea#endereco{
-     background-color:#ffffff;
-     height: 50px;
- }
- 
- button{
-     background-color:rgb(255, 255, 255);
-     color:black;
-     font-size: 25px;
-     margin-bottom: 50px;
-     display: float;
- }
- 
- 
- 
- 
- 
- a.email{
-    font-size:25px;
-    margin-top: 100px;
-   
- }
- 
- 
- .email{
- 
-     font-weight:bold;
-     text-decoration: none;
-     font-size:25px;
-     color:#ffffff;
-     display: flex;
-     margin: auto;
-     
- 
- }
- 
- .email:hover{
- 
-     font-weight:bold;
-     text-decoration: none;
-     font-size:25px;
-     color:#928e8e;
-     
- 
- }
- 
- button.btn-whatsapp{
-     margin-top: 30px;
-    
- }
- 
- iframe{
-     width:300px;
-     height: 300px;
-     border-radius:10px;
-     
- }
- 
- }
  
  @media (min-width:1016px) and (max-width:1400px)
 {
     
-#topo{
-    background-image: url(img/fundoheader.png);
-    width: 100vw;
-    background-attachment: fixed;
-    background-size: cover;
-    margin: auto;
-    height: 500px;
-    padding-top:50px;
-    border:1px solid rgb(255, 255, 255);
-    border-radius:20px;
-}
 
-
-.logo{
-    width: 250px;
-    border-radius: 50%;
-    border: 2px solid rgb(255, 255, 255);
-   
-}
-
-
-
-ul li  {
-    display: inline;
-    margin: auto;
+    textarea#endereco{
+        border-color: #ffffff;
+    }
     
-}
-
-ul li a {
-    text-decoration: none;
-   
-    font-size: 18px;
-    color:#ffffff;
-    font-family: 'Anton', sans-serif;
-    font-weight: bold;
-    margin: auto;
-    display: flex-inline;
-}
-
-ul li a:hover {
-    text-decoration: none;
-   
-    font-size: 18px;
-    color:#000000;
-    font-weight: bold;
-
-}
-
-
-
-p.nomelink, p{
-    width:90%;
-    margin: 0 auto;
-}
-
+    
 
 
 
@@ -510,6 +274,12 @@ p.nomelink, p{
         margin-top:-150px;
 
     }
+
+    textarea#endereco{
+        border-color: #ffffff;
+    }
+    
+    
 
 }
 

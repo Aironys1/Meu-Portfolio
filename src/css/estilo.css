@@ -279,9 +279,9 @@ form#formulario{
     text-align: center;
     display: block;
     font-size:30px;
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     margin-top: 10px;
-    background-color:#777474;
+    background-color:#565353 !important;
     border-radius: 50px;
     margin-bottom: 20px;
     cursor: pointer;
@@ -326,6 +326,7 @@ form#formulario{
 
 input{
     background-color:#ffffffff;
+    border-color: #ffffff !important;
     border-radius: 20px;
     color: #000000;
     border: 1px solid #000000;
@@ -405,6 +406,12 @@ color: #000000;
     color: #000000;
         
     }
+
+
+    textarea#endereco{
+        border-color: #ffffff;
+    }
+    
     
 
 
