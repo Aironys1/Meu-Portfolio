@@ -9,7 +9,7 @@
 
 html{
     font-family: 'Oswald';
-    background-color:#201d26;
+    background-color:#e0e0e0;
 }
 
 body {
@@ -35,22 +35,21 @@ body {
 
 
 #topo{
-    background-image: url(img/fundoheader.png);
+    background-image: url(https://cdn.pixabay.com/photo/2015/12/27/05/48/turntable-1109588_1280.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    width:100vw;
-    height:100vh !important;
-    margin: auto;
-    height: 500px;
-    padding-top:50px;
-    
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
 }
 
 
 .logo{
     width: 250px;
     border-radius: 50%;
-    border: 5px solid rgb(255, 255, 255);
+    border: 5px solid #ffffff;
     padding: 10px !important;
    
 }
@@ -97,24 +96,22 @@ ul li a:hover {
 }
 
 
-
 h1{
 text-align: center;
-font-size:150px;
-font-family: 'Luxurious Script', cursive;
-display:none
-
-
+font-size:70px;
+font-family: 'Luxurious Script';
+color:#777474;
+margin-bottom: 100px;
 }
 
 h2{
     text-align: center;
-    font-family: 'Luxurious Script','Anton', sans-serif;
     font-size:80px;
     margin-top: 185px;
     padding-top:50px;
     margin-bottom: 20px;
-    color: white !important;
+    font-family: 'Luxurious Script', cursive;
+    color:#777474;
 }
 
 
@@ -122,7 +119,7 @@ h2{
 
 p{
     font-size:20px;
-    color:rgb(223, 212, 212);
+    color:#000000;
     text-align: justify;
     display:block;
     margin-bottom: 50px;
@@ -133,12 +130,6 @@ p{
     
 }
 
-
-.campo_paragrafo{
-    text-align:center;
-    margin-top:10px;
-    color: red;
-}
 
 img{
     border-radius: 20px;
@@ -260,7 +251,7 @@ form#formulario{
     font-size:30px;
     color: white;
     margin-top: 10px;
-    background-color:#2f3333 !important;
+    background-color:#777474;
     border-radius: 50px;
     height: 350px;
 }
@@ -290,10 +281,11 @@ form#formulario{
     font-size:30px;
     color: rgb(255, 255, 255);
     margin-top: 10px;
-    background-color:#9ec5c4;;
+    background-color:#777474;
     border-radius: 50px;
     margin-bottom: 20px;
     cursor: pointer;
+    width: 200px;
 
 
     
@@ -310,7 +302,7 @@ form#formulario{
     font-weight:bold;
     text-decoration: none;
     font-size:30px;
-    color:#ffffff;
+    color:#777474;
     display: flex;
     margin: auto;
     margin-top:100px;
@@ -325,7 +317,7 @@ form#formulario{
     font-weight:bold;
     text-decoration: none;
     font-size:30px;
-    color:#777474;
+    color:#000000;
     
 
 }
@@ -368,12 +360,12 @@ button.enviar{
     max-width: 80%;
     margin: 20px auto;
     text-decoration: none;
-    color: white;
+    color: #777474;
 }
 
 
 .endereco2:hover{
-    color:rgb(80, 77, 77);
+    color:#000000;
 }
 
 #endereco {

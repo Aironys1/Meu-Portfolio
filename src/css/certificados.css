@@ -15,7 +15,7 @@ body{
 
 
  h6{
-     color: rgb(255, 255, 255) !important;
+     color:#777474 !important;
      border: 0 !important;
      margin: 30px  auto!important;
      
@@ -25,14 +25,12 @@ body{
 .certificados{
     width: 400px;
     border-radius: 30px;
-    background-color: #97b0c7;
+    background-color:#ada7a7;
 }
 
 .certificado{
-    color: #ffffff;
     font-size:30px;
     text-align: center;
-    border-bottom: 2px solid #000000;
     margin: auto;
 }
 
@@ -40,7 +38,7 @@ body{
 .p_certificado{
     margin-top:30px;
     margin-bottom: 30px;
-    color:#ffffff;
+    color:#000000;
     text-align:center;
     font-size:12px;
 }

@@ -1,39 +1,49 @@
-.campo_paragrafo{
-    color: #ffffff;
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&display=swap');
+
+
+
+html{
+    font-family: 'Oswald';
+    background-color:#e0e0e0;
 }
 
-.titulo{
-    background-color: #222247 !important;
-    font-family: 'Courier New', Courier, monospace !important;
+
+h1{
+    text-align: center;
+    font-size:70px;
+    font-weight: 700;
+    color:#777474;
+    margin-bottom: 10px;
+    font-family: fantasy;
 }
+.campo_paragrafo{
+    color: #000000;
+}
+
+
+
+a.linkcomposicao{
+    color:#777474;
+}
+a.linkcomposicao:hover{
+    color:rgb(0, 0, 0);
+}
+
 
 
 
 
 @media (max-width: 600px) {
-    h5{
-        font-size: 30px;
-        margin-top: 20px;
-        color: rgb(46, 88, 206);
+    h1{
+        margin-top: 5px;
     }
-    section span{
-        font-size: 1rem;
-        color: red;
-    }
-
+    
     p{
         padding-top: 50px;
         padding-bottom: 50px;
-        color: rgb(107, 102, 102);
         max-width: 80%;
         margin: auto;
         font-size: 20px;
-    }
-
-   
-    .container_musica img{
-        width: 10px !important;
-        border: 20px solid white;
     }
 
    
