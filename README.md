@@ -3,9 +3,9 @@
 
 
 <h4 style="color:#00ffff" >Imagem do site, versão Descktop</h4>
-<img src="img-projeto/descktop.png" alt="Versão Descktop" width="500px">
+<img src="src/images/img-projeto/descktop.png" alt="Versão Descktop" width="500px">
 
 <h4 style="color:#00ffff">Imagem do site, versão Mobile</h4>
-<img src="img-projeto/mobile.png">
+<img src="src/images/img-projeto/mobile.png">
 
 
